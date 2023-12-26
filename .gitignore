@@ -12,3 +12,15 @@ Cargo.lock
 
 # MSVC Windows builds of rustc generate these, which store debugging information
 *.pdb
+
+pcb/*
+!pcb/*.kicad_pcb
+!pcb/*.kicad_sch
+!pcb/*.kicad_pro
+!pcb/*.kicad_dru
+!pcb/door-adapter
+pcb/*/*
+!pcb/*/*.kicad_pcb
+!pcb/*/*.kicad_sch
+!pcb/*/*.kicad_pro
+!pcb/*/*.kicad_dru
